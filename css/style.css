@@ -1,11 +1,8 @@
 /* custom properties */
 :root {
     --primario: #fff;
-    --primarioOscuro: #272727;
-    --secundario: #ffce00;
-    --secundarioOscuro: rgb( 233, 287, 2 );
-    --blanco: #fff;
-    --negro: #000;
+    --primarioOscuro: #272727;    
+    --blanco: #fff; 
 
     /* fuente */
     --fuentePrincial: 'Ubuntu', cursive;
@@ -19,8 +16,7 @@ html {
 
 *, *:before, *:after {
     box-sizing: inherit;
-  }
-
+}
 
 /* Globales */  
 
@@ -42,7 +38,6 @@ a {
 
 img {
     max-width: 100%;
-
 }
 
 .contenedor {
@@ -50,8 +45,6 @@ img {
     margin: 0 auto;
     width: min(90%, 120rem);
 }
-
-
 
 h1,h2,h3 {
     text-align: center;
@@ -97,8 +90,6 @@ h3 {
     margin-top: 2rem;   
 }
 
-
-
 .footer__texto {
     text-align: center;
     font-family: var(--fuentePrincial);
@@ -120,7 +111,6 @@ h3 {
     color: var(--blanco);
     font-size: 3rem;
     margin-right: 2rem;
-
 }
 
 .navegacion__enlace:last-of-type {
@@ -131,18 +121,6 @@ h3 {
 .navegacion__enlace:hover {
     color: var(--secundario);
 } 
-
-/* grid con este codigo creas una tienda virtual */ 
-/* @media (min-width: 480px) {
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;        
-    }
-    
-} */
-
-
 
 @media (min-width: 768px) {
     .grid {
@@ -172,7 +150,6 @@ h3 {
     object-fit: cover;
 }
 
-
 .producto__nombre {
     font-size: 4rem;
 }
@@ -200,13 +177,12 @@ h3 {
     font-size: x-large;
     background-color: #000;
     color: #fff;
-}
+} 
 
 .btn-categoria:hover{
     background-color: #1e1e1e;
     border:#1e1e1e;
 }
-
 
 /* graficos */
 
@@ -218,34 +194,26 @@ h3 {
 }
 
 .grafico--camisas {
-    grid-row: 2 / 3;  
-     
+    grid-row: 2 / 3;       
     background-image: url(../img/grafico1.jpg);
-
 }
-
-
 
 .producto__imagen {
     width: 100%;
     height: 80%;
-
 }
 
 .grafico--node {
     background-image: url(../img/grafico2.jpg);  
     grid-column: 1 / 3;
-    grid-row: 8 / 9;
-    
+    grid-row: 8 / 9;    
 }
-
 
 @media (min-width: 768px) {
     .grafico--node {
         grid-row: 5 / 6 ;
         grid-column: 2 / 4;
-    }
-        
+    }        
 }
 
 /* nosotros */
@@ -262,8 +230,7 @@ h3 {
 }
 
 .nosotros__imagen {
-    grid-row: 1 / 2;
-    
+    grid-row: 1 / 2;    
 }
 
 @media (min-width: 768px) {
@@ -273,7 +240,6 @@ h3 {
 }
 
 /* bloques */
-
 .bloques {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -312,11 +278,8 @@ text-align: center;
 @media (min-width: 390px) {
         .formulario__campo {
             grid-column: 1 / 2;            
-        }
-       
+        }       
 }
-
-
 
 .formulario {
     display: grid;
