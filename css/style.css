@@ -95,8 +95,9 @@ h3 {
     background-color: var(--primarioOscuro);
     padding: 1rem 0;
     margin-top: 2rem;   
-
 }
+
+
 
 .footer__texto {
     text-align: center;
@@ -132,21 +133,23 @@ h3 {
 } 
 
 /* grid con este codigo creas una tienda virtual */ 
-@media (min-width: 480px) {
+/* @media (min-width: 480px) {
     .grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
-        
+        gap: 2rem;        
     }
     
-}
+} */
 
 
 
 @media (min-width: 768px) {
     .grid {
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
+        gap: 2rem; 
+        margin-top: 20rem;   
     }
         
 }
