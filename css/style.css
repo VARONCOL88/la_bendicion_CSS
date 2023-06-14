@@ -1,20 +1,20 @@
 /* custom properties */
 :root {
-    --primario: #9c27b0;
-    --primarioOscuro: #89119d;
+    --primario: #fff;
+    --primarioOscuro: #272727;
     --secundario: #ffce00;
     --secundarioOscuro: rgb( 233, 287, 2 );
     --blanco: #fff;
     --negro: #000;
 
     /* fuente */
-    --fuentePrincial: 'Balsamiq Sans', cursive;
+    --fuentePrincial: 'Ubuntu', cursive;
 }
 
 
 html {
     box-sizing: border-box;
-    font-size: 62.5%;
+    font-size: 50%;
 }
 
 *, *:before, *:after {
@@ -42,6 +42,7 @@ a {
 
 img {
     max-width: 100%;
+
 }
 
 .contenedor {
@@ -61,6 +62,7 @@ h1,h2,h3 {
 
 h1 {
     font-size: 4rem;
+    color: #fff;
 }
 
 h2 {
@@ -153,10 +155,20 @@ h3 {
 /* produtos */
 
 .producto {
-    background-color: var(--primarioOscuro);
-    padding: 2rem;   
-
+    display: flex;
+    padding: 1rem;   
+    border-radius: 5px;
+    justify-content: center;
+    padding: 30px;
 }
+
+.imagen_categoria {
+    width: 944px;
+    height: 560px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
 
 .producto__nombre {
     font-size: 4rem;
@@ -167,13 +179,31 @@ h3 {
     color: var(--secundario);
 }
 
-.producto__nombre,
-.producto__precio {
-    font-family: var(--fuentePrincial);
-    margin: 1rem 0;
-    text-align: center;
-    line-height: 1.2;
+.producto__informacion{
+    display: flex;
+    justify-content: center;
 }
+
+.btn-categoria {
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: center;
+    border-radius: 12px;
+    border: #000;
+    margin-top: 8px;
+    padding-inline: 10rem;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 100%;
+    font-size: x-large;
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-categoria:hover{
+    background-color: #1e1e1e;
+    border:#1e1e1e;
+}
+
 
 /* graficos */
 
