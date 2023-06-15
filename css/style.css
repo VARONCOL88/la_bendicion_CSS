@@ -1,6 +1,6 @@
 /* custom properties */
 :root {
-    --primario: #fff;
+    --primario: #e4e4e4;
     --primarioOscuro: #272727;
     --secundario: #ffce00;
     --secundarioOscuro: rgb( 233, 287, 2 );
@@ -155,11 +155,12 @@ h3 {
 /* produtos */
 
 .producto {
+    background-color: #fff;
     display: flex;
-    padding: 1rem;   
     border-radius: 5px;
     justify-content: center;
-    padding: 30px;
+    padding: 3rem;
+    margin-top: 2rem;
 }
 
 .imagen_categoria {
